@@ -4,5 +4,7 @@ def prime?(x)
      false
   elsif x%2!=0 || x==2
     true
+  else
+    false
   end
 end
