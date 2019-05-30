@@ -4,7 +4,7 @@ def prime?(x)
      true
   elsif x == -1
     false
-  else 
+  else
     false
   end
 end
