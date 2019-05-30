@@ -5,5 +5,5 @@ def prime?(x)
   # else
   #   true
   # end
-  (2...integer).none? {|i| integer % i == 0}
+  (2...x).none? {|i| x % i == 0}
 end
