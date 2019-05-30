@@ -2,7 +2,9 @@
 def prime?(x)
   if x%2 !=0 || x==2
      true
-  else
+  elsif x == -1
+    false
+  else 
     false
   end
 end
